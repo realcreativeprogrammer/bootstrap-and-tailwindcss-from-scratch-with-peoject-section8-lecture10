@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>form
+    </title>
+</head>
+<body class="bg-indigo-500 h-screen flex flex-row items-center justify-center">
+    <div class="w-full max-w-md">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class=" w-full flex items-center justify-center">
+                <div class="bg-indigo-700 rounded-full p-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="text-gray-700 text-sm font-bold mb-2">Username</label>
+                <input type="text" placeholder="UserName" class="shadow border rounded w-full py-2 px-3 text-gray-700 focus:shadow-lg focus:ring focus:ring-indigo-500 focus:outline-none hover:bg-gray-200">
+            </div>
+            <div class="mb-6">
+                <label class="text-gray-700 text-sm font-bold mb-2">Password</label>
+                <div class="relative text-gray-700">
+                    <input type="password" placeholder="****************" class="shadow border rounded w-full py-2 px-3 text-gray-700 focus:shadow-lg focus:ring focus:ring-indigo-500 focus:outline-none hover:bg-gray-200">
+                    <div class="absolute -my-10 right-0 flex items-center px-3 py-2 pointer-events-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+                          </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">Login</button>
+                <a href="" class="font-bold text-sm text-blue-500">Forget Password?</a>
+            </div>
+        </form>
+        <p class="text-center text-white text-xs"> &copy;2021</p>
+    </div>
+
+</body>
+</html>
